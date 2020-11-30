@@ -1,2 +1,7 @@
 # Arduino-DigitalCO2Measuring
-dwdwdw
+
+This Project is about CO2 Measuring 
+
+Conection: 
+
+
