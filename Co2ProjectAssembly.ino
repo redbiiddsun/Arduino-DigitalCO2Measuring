@@ -15,9 +15,9 @@ long lastSampleTime = 0;
 
 
 void setup() {
-  // put your setup code here, to run once:
+  // start information 
      lcd.begin(16, 2);
-     analogWrite(6,Contrast);
+     analogWrite(6,Contrast); //Set Contrast  
      lcd.setCursor(5, 0);
      lcd.println("Welcome    ");
      lcd.setCursor(2, 1);
@@ -43,7 +43,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  
     long now = millis();
     if (now > lastSampleTime + samplePeriod) {
     lastSampleTime = now;
